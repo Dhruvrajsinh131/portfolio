@@ -151,7 +151,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Software Developer",
-    desc: "Software Developer at Squad Technologies Pvt. Ltd. with 1.5+ years of experience ,I am currently working on projects involving generative AI within our company's CRM product, focusing on enhancing customer interactions and driving efficiency through innovative AI-powered solutions.",
+    desc: "Software Developer at Squad Technologies Pvt. Ltd. with 2+ years of experience ,I am currently working on projects involving generative AI within our company's CRM product, focusing on enhancing customer interactions and driving efficiency through innovative AI-powered solutions.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
