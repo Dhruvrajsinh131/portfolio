@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "next-themes";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dhruvrajsinh Zala",
-  description: "Dhruvrajsinh Zala",
+  title: "Dhruvrajsinh Zala — Full Stack Developer",
+  description:
+    "Portfolio of Dhruvrajsinh Zala, a MERN stack developer with 3.5+ years of experience across web development and Odoo.",
 };
 
 export default function RootLayout({
@@ -17,17 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        {" "}
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
